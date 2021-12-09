@@ -8,8 +8,8 @@ The Customer Service team wants to analyze the products for their clients using 
 
 ## Objective
 
-Make an automation process create an infrastructure in a cloud
-service and run a pipeline to process raw databases and storage in a data warehouse.
+Make an automation process to create an infrastructure in a cloud
+service, run a pipeline to process raw databases and storage it in a data warehouse.
 
 ![GENERAL DIAGRAM.svg](Capstone%20project%20Data%20Engineering%20Bootcamp%206086dc7bcba345fc9fa643fb05574103/GENERAL_DIAGRAM.svg)
 
