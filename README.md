@@ -4,7 +4,7 @@
 
 ## Exploratory Analysis
 
-The Customer Service team wants to analyze the products and reviews for their clients using their data to create user behavior metrics based on their reviews.
+The Customer Service team wants to analyze the products for their clients using their data to create user behavior metrics based on their reviews.
 
 ## Objective
 
