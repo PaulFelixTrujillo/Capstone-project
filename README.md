@@ -45,15 +45,14 @@ Finally, I use Bigquery as my data Wharehouse  to create a external query job us
 
 ![DAGS.svg](Capstone%20project%20Data%20Engineering%20Bootcamp%206086dc7bcba345fc9fa643fb05574103/DAGS.svg)
 
-The last phase use the GKE cloud service to integrate airflow as a scheduler. In this platform I
-
- created the DAGs for each part of the data pipeline to schedule and monitor the workflow.
+The last phase uses the GKE cloud service to integrate airflow as a scheduler. In this platform I
+created the DAGs for each part of the data pipeline to schedule and monitor the workflow.
 
 The first two DAGs store the cvs files (`user_pruchase.csv movie_review.csv`) in postgres as tables.
 
-The third DAG submit the spark job in dataproc to create a new table, `reviews`, with the information of  positive reviews.
+The third DAG submits the spark job in dataproc to create a new table, `reviews`, with the information of  positive reviews.
 
-The final dag insert a job in BigQuery to create the `user_behavior_metrics` table using a external query for the tables in postgres.
+The final dag inserts a job in BigQuery to create the `user_behavior_metrics` table using a external query for the tables in postgres.
 
 ## Lesson Learned and next steps
 
